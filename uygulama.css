@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+}
+
+.body{
+    font-family:'Syne Mono', monospace;
+}
+
+.main-header{
+    background-color: #FC997C;
+    padding: 5px 15px;
+}
+
+.main-header__logo{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.main-header__items{
+    display: inline-block;
+    text-align: right;
+    width: calc(100% - 174px);
+    list-style-type: none;
+}
+
+.main-header__item{
+    display: inline-block;
+}
+.main-header__item a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.main-header__item a::before{
+    content: '\2023';
+    padding-right: 5px;
+}
+.main-header__item a:hover{
+    color:#2E4C6D ;
+}
+.main-header__item--login a::before{
+    content: none;
+}
+.main-header__item--login{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 8px;
+    background-color: #2E4C6D;
+}
+
+.main-header__item--login:hover{
+    background-color: white;
+    border: 2px solid #2E4C6D;
+}
+
+.main-image{
+    background: url('home-bg.jpeg');
+    height: 500px;
+  background-position: center;
+}
+
+.section-usually{
+    text-align: center;
+}
+.row{
+    display: inline-block;
+    width: 30%;
+    padding: 10px;
+}
+
+.baslık{
+    padding-bottom: 30px;
+    color:#3e4555 ;
+    font-size: 30px;
+}
+
+.style-emoji{
+    font-size: 40px;
+    padding-bottom: 40px;
+    color: #FC997C;
+}
+
+.col-2 {
+    display: inline-block;
+    width: calc(50% - 2px);
+    height: 350px;
+    background-color: brown;
+}
+
+
+.features__left {
+    background: url("features.jpeg");
+    background-size: cover;
+    background-position: top center;
+}
+
+.features__right {
+    background-color: #edf5f7;
+    
+    vertical-align: top;
+}
+
+.features__right_bosluk{
+   padding: 30px 20px 20px 40px;
+}
+
+#features{
+    margin-top:100px;
+}
+
+#features a {
+    background-color: #FC997C;
+    color: #fff;
+    padding: 7px 15px;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #FC997C;
+    border-radius: 3px;
+    display: inline-block;
+    margin-top: 15px;
+    margin-left: 30px;
+}
+
+#features a:hover {
+    border: 1px solid #FC997C;
+    color: #FC997C;
+    background-color: #fff;
+}
